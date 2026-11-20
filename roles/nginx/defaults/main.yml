@@ -1,0 +1,6 @@
+---
+nginx_port: 80
+nginx_welcome_message: "welcome to nginx on Ubuntu"
+nginx_server_name: "192.168.30.17"
+nginx_site_name: nginx-site
+nginx_web_root: /var/www/html

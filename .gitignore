@@ -1,0 +1,9 @@
+# Ansible Vault secrets
+/inventory/group_vars/nginx/vault.yml
+
+# Vault password files
+.vault_pass
+.vault_password
+
+# Ansible retry files
+*.retry

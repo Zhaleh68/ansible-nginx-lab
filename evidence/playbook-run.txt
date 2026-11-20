@@ -1,0 +1,34 @@
+
+PLAY [Install and configure Nginx] *********************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Host '192.168.30.17' is using the discovered Python interpreter at '/usr/bin/python3.12', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.21/reference_appendices/interpreter_discovery.html for more information.
+ok: [192.168.30.17]
+
+TASK [nginx : Install nginx package] *******************************************
+changed: [192.168.30.17]
+
+TASK [nginx : Remove default nginx site] ***************************************
+changed: [192.168.30.17]
+
+TASK [nginx : Deploy configuration] ********************************************
+changed: [192.168.30.17]
+
+TASK [nginx : Enable Nginx site] ***********************************************
+changed: [192.168.30.17]
+
+TASK [nginx : Deploy welcome] **************************************************
+changed: [192.168.30.17]
+
+TASK [nginx : Ensure nginx service is running] *********************************
+ok: [192.168.30.17]
+
+RUNNING HANDLER [nginx : Validate Nginx configuration] *************************
+ok: [192.168.30.17]
+
+RUNNING HANDLER [nginx : Reload Nginx service] *********************************
+changed: [192.168.30.17]
+
+PLAY RECAP *********************************************************************
+192.168.30.17              : ok=9    changed=6    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+

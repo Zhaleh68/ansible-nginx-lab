@@ -1,0 +1,3 @@
+---
+# Example only — do not store real passwords here.
+ansible_become_password: "REPLACE_WITH_YOUR_SUDO_PASSWORD"
